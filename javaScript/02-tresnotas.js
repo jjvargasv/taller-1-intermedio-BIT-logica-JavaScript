@@ -6,8 +6,7 @@ let sum = 0;
 for(let i=0; i<3; i++){
     let not1 = Number(prompt('dijite sus notas '));
     if(not1 <0 || not1 >5){
-        console.log('las notas debe ser mayores a 0 y menores de 5 ')
-        document.write('las notas debe ser mayores a 0 y menores de 5' );
+        console.log('las notas debe ser mayores a 0 y menores de 5 ');
         i--;
         not1=0;
     }
